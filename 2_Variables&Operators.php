@@ -58,3 +58,8 @@ define(name, value);
 
 in then code we can use that name without $ sign
 -->
+
+
+
+<!-- Array -->
+ $languages = array("Python", "C++", "php", "NodeJs"); 
