@@ -1,1 +1,11 @@
 > We need XAMPP for php that makes a php environment
+>Not a case sensitive language
+>we always use php in xamp->htdocs->Nameof your folder
+>Extention of PHP folders are "*.php"
+>now after write hello world we just simply need to type http://localhost/Folder_name/ in browser to show the content
+> for write php in html file we ned to use this "  <?php here_your_content ?> "
+  why we need to write in php tag bcz in source code we cant see php tag and content of any web site
+  
+  
+
+
