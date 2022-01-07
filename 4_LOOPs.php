@@ -57,3 +57,44 @@ Foreach:- loops through a block of code for each element in an array. -->
     </div>
 </body>
 </html>
+
+<!-- 
+for associative array->
+ $student= array("Maths"=>56, "Physics"=>70,  
+                  "Chemistry"=>94, "English"=>83,  
+                  "Computer"=>58);
+
+/* Loop through array using foreach */
+
+echo "Looping using foreach: \n"; 
+foreach ($student as $subject => $marks){ 
+    echo "Student got ".$marks." in ".$subject."\n"; 
+}
+
+
+
+for Multidimentional array->
+$multiDim = array(array(2,5,7,8),
+                  array(1,2,3,1),
+                  array(4,5,0,1));
+
+
+// echo var_dump($multiDim);
+// echo $multiDim[1][2];
+
+// Printing the contents of a 2 dimensional array
+
+// for ($i=0; $i < count($multiDim); $i++) { 
+//     echo var_dump($multiDim[$i]);
+//     echo "<br>";
+// }
+
+for ($i=0; $i < count($multiDim); $i++) { 
+    for ($j=0; $j < count($multiDim[$i]); $j++) { 
+        echo $multiDim[$i][$j];
+        echo " ";
+    }
+    echo "<br>";
+}
+
+-->
