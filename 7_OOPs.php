@@ -162,5 +162,9 @@ class className {
 
 
 
+//NB: protected mainly use when we want to make something private but also want that class access by derived class
+//then we need protected bcz in private another class also cant access elements
+
+
 
 ?>
