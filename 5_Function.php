@@ -7,5 +7,5 @@ function print_number($number){
     }
 
 <!-- 
-NB if we want to use global variables in a local scope then we simply use gklobal keyword 
+NB if we want to use global variables in a local scope then we simply use global keyword 
 -->
