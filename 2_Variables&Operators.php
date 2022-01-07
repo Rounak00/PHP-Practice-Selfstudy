@@ -67,3 +67,37 @@ in then code we can use that name without $ sign
 
  echo $lan[0]//we can print or access element from index
  echo count($lan)//show number of items  
+
+
+<!-- Associative Array -->
+<!-- it is nothing but just like a dictionary 
+ use them like this->
+
+$arr = array("key1"=>"value", "key2"=>"value", "key3"=>"value");
+
+or 
+
+$arr['key1'] = "value";
+
+$arr['key2'] = "value";
+
+$arr['key3'] = "value";
+-->
+
+<!-- Multidimentional array -->
+<!-- 
+ syntax->
+array (
+    array (elements...),
+    array (elements...),
+   ...
+)
+
+example->
+$vehicles = array (
+  array("Suzuki",21,12),
+  array("Honda",12,9),
+  array("BMW",22,1),
+  array("Corolla",17,12)
+);
+-->
