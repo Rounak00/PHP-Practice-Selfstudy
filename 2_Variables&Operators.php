@@ -63,3 +63,7 @@ in then code we can use that name without $ sign
 
 <!-- Array -->
  $languages = array("Python", "C++", "php", "NodeJs"); 
+
+
+ echo $lan[0]//we can print or access element from index
+ echo count($lan)//show number of items  
